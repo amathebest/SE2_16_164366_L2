@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <!-- Character set -->
+    <meta charset="utf-8"
+    <!-- Page title -->
+    <title> Tabella cose </title>
+	
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+ </head>
+ 
+ <body>
+	<h1>Item table</h1>
+	Insert the maximum number of objects:         
+    <input type="number" id="maxItems">
+	<input type="submit" value="Confirm">
+	<br>
+	Actual maximum number of items: <span id="maxItemNumber">30</span>
+	<br>
+    <br>
+	<table id="items">
+		<tr>
+			<th>Item name</th>
+			<th>Quantity</th>
+		</tr>
+	</table>
+	<br>
+	<input type="button" value="Add item">
+	<br>
+	<br>
+	<div id="adder">
+		<fieldset class="fieldset-auto-width">
+			<legend>Add item</legend>
+				<p>Item name:<br>
+				<input type="text" name ="name" id="name"><br>
+				Quantity:<br>
+				<input type="number" name ="quantity" id="quantity"></p>
+				<br>
+				<p><input type="submit" value="Confirm"></p>
+		</fieldset>
+	</div>
+ </body>
+</html>

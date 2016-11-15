@@ -1,0 +1,15 @@
+table, th, td {
+		border: 1px solid black;
+	}
+	table {
+		border-collapse: collapse;
+	} 
+	.fieldset-auto-width {
+        display: inline-block;
+    }
+	#adder {
+		position: absolute;
+		top: 30%;
+		left: 20%;
+		display: none;
+	}
