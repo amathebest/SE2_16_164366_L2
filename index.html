@@ -6,6 +6,8 @@
     <!-- Page title -->
     <title> Tabella cose </title>
 	
+	<script src="script.js"></script>
+	
 	<link href="style.css" rel="stylesheet" type="text/css">
 	
  </head>
@@ -14,7 +16,7 @@
 	<h1>Item table</h1>
 	Insert the maximum number of objects:         
     <input type="number" id="maxItems">
-	<input type="submit" value="Confirm">
+	<input type="submit" value="Confirm" onClick="defineMaxItem()">
 	<br>
 	Actual maximum number of items: <span id="maxItemNumber">30</span>
 	<br>
@@ -26,7 +28,7 @@
 		</tr>
 	</table>
 	<br>
-	<input type="button" value="Add item">
+	<input type="button" value="Add item" onClick="addItem()">
 	<br>
 	<br>
 	<div id="adder">
